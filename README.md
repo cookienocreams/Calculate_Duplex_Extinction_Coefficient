@@ -1,2 +1,2 @@
-# Calculate_Duplex_Concentration
-Calculate the concentration of DNA/RNA duplexes 
+# Calculate_Duplex_Extinction_Coefficient
+Calculate the extinction coefficient of DNA/RNA duplexes 
