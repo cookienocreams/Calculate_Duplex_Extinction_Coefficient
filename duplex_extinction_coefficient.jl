@@ -1,11 +1,8 @@
 #Calculate the extinction coefficient of an input RNA or DNA duplex
 
 function IsGC(base::Char)
-    base == 'G' && return 1
-    base == 'C' && return 1
-    base == 'A' && return 0
-    base == 'T' && return 0
-    base == 'U' && return 0
+    base in "GC" && return 1
+    base in "ATU" && return 0
     throw(ErrorException("Unknown nucleotide: $base"))
 end
 
